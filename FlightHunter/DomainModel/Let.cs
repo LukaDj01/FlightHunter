@@ -8,5 +8,6 @@ namespace FlightHunter.DomainModel
 {
     class Let
     {
+        public int id { get; set; }
     }
 }
