@@ -10,6 +10,7 @@ namespace CassandraDataLayer.QueryEntities
     {
         //za cassandru entities
         //tabele za upite
+        //kom
         public int id { get; set; }
     }
 }
