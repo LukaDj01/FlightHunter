@@ -25,6 +25,7 @@ namespace FlightHunter
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            //povezivanje za neo4j 
             client = new GraphClient(new Uri("http://localhost:7474/db/data/"), "neo4j", "neo4jneo4j");
             try
             {

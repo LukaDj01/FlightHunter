@@ -11,6 +11,7 @@ namespace FlightHunter
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
+        /// nesto
         [STAThread]
         static void Main()
         {

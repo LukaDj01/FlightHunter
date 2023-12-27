@@ -9,7 +9,7 @@ namespace CassandraDataLayer
     public static class CassandraSessionManager
     {
         public static ISession session;
-
+        // za povezivanje sa bazom
         public static ISession GetSession()
         {
             if(session == null)

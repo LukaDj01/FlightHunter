@@ -9,6 +9,7 @@ namespace CassandraDataLayer
 {
     public static class CassandraDataProvider
     {
-
+        //funkcije prema bazi, kao kontroleri
+        //slanje upita ka bazi
     }
 }

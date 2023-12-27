@@ -8,5 +8,6 @@ namespace FlightHunter.DomainModel
 {
     class Let
     {
+        //entiti za Neo4J
     }
 }

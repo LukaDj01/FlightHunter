@@ -8,6 +8,8 @@ namespace CassandraDataLayer.QueryEntities
 {
     class Let
     {
+        //za cassandru entities
+        //tabele za upite
         public int id { get; set; }
     }
 }
