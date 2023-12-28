@@ -16,7 +16,7 @@ namespace Neo4J_Repository.DomainModel
             if (this.purchaseDate == null) return new DateTime();
 
             long timestamp = Int64.Parse(this.purchaseDate);
-            DateTime startDateTime = new DateTime(2000, 1, 1, 0, 0, 0, 0);
+            DateTime startDateTime = new DateTime(1985, 1, 1, 0, 0, 0, 0);
             return startDateTime.AddMilliseconds(timestamp).ToLocalTime();
         }
     }
