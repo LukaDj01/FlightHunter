@@ -3,13 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Neo4J_Repository.DomainModel
+namespace FlightHunter.DomainModel
 {
-    public class Airport
+    public class Luggage
     {
-        public String number { get; set; }
+        public string number { get; set; }
         public float weight { get; set; }
-        public float dimension { get; set; }
+        //nije float jer ce da bude samo prikaz tipa 20x30x18
+        public string dimension { get; set; }
         public float pricePerKG { get; set; }
     }
 }
